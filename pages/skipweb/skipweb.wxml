@@ -1,0 +1,2 @@
+<!--pages/skipweb/skipweb.wxml-->
+<web-view src="http://cet.neea.edu.cn/cet/"></web-view>

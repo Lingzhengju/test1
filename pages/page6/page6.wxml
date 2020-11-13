@@ -1,0 +1,45 @@
+<!--pages/page6/page6.wxml-->
+<view class="container">
+  <view class='info'>
+      <!-- <view>{{audioList[audioIndex].name||""}}</view>
+      <view>{{audioList[audioIndex].author||""}}</view> -->
+      <text class="text_myZS1">我的证书</text>
+      <!--文字我的证书-->
+    </view>
+
+    <!-- 我的证书 1-->
+    <!-- <view class="view_tupian_wenzi">
+      <image class="image_1" src="../../image/CET4.png" />
+      <view class="view_wenzi2">
+        <text class="text_myZS2">证书名称：英语四级</text>
+        <text class="text_myZS2">获取时间：2020-11-08</text>
+        <text class="text_myZS2">证书类型：通用</text>
+        <text class="text_myZS2">通过分数：500分</text>
+      </view>
+    </view> -->
+
+    <!-- 获取证书信息 -->
+    <view  wx:for="{{ne}}">
+      <view class="view_tupian_wenzi">
+      <image class="image_1" src="{{item.fileIDs}}" />
+      <view class="view_wenzi2">
+        <text class="text_myZS2">证书名称：{{item.name}}</text>
+        <text class="text_myZS2">获取时间：{{item.data}}</text>
+        <text class="text_myZS2">证书类型：{{item.type}}</text>
+        <text class="text_myZS2">通过分数：{{item.score}}</text>
+      </view>
+    </view>
+    </view>
+
+
+    <view><button bindtap="getData" type='primary'>刷新</button></view> 
+
+
+    <view class="btn">
+      <button class='btn1' bindtap="jumpPageADD">
+        <!-- open-type='openSetting'打开设置选项 -->
+        <image class='btnImg' src='../../image/添加.png'></image>
+        <view>添加</view>
+      </button>
+    </view>
+</view>

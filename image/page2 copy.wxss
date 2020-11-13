@@ -1,0 +1,242 @@
+page {
+  background-color: #FFFFFF;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.page-body{
+  padding-top: 60rpx;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.page-section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-section:last-child{
+  margin-bottom: 0;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.page-section-spacing{
+  box-sizing: border-box;
+  padding: 0 80rpx;
+}
+.page-section-title{
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.page-section-gap .page-section-title{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.demo-text-1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color:#FFFFFF;
+  color:#2782D7;
+  height: 200rpx;
+  font-size: 36rpx;
+}
+.demo-text-1:before{
+  content: '广告';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-2{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: #2782D7;
+  height: 200rpx;
+  font-size: 36rpx;
+}
+.demo-text-2:before{
+  content: '广告';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color:#FFFFFF;
+  color:#2782D7;
+  height: 200rpx;
+  font-size: 36rpx;
+}
+.demo-text-3:before{
+  content: '广告';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button{
+  margin-bottom: 30rpx;
+}
+button:last-child{
+  margin-bottom: 0;
+}
+.page-section-title{
+  padding: 0;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.page-section-title{
+  margin-top: 60rpx;
+  position: relative;
+}
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
+.page-foot{
+  margin-top: 50rpx;
+}
+.flex-wrp{
+  margin-top: 20rpx;
+  display:flex;
+}
+.flex-item{
+  margin: 50rpx;
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 26rpx;
+}
+.flex-item-a{
+  margin: 50rpx;
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 26rpx;
+}
+.flex-item-V{
+  margin: 20rpx;
+  width: 300rpx;
+  height: 200rpx;
+}
+.text-1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #E1BFFF;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-1:before{
+  content: 'A';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-2{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #80D1FE;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-2:before{
+  content: 'B';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDB76;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-3:before{
+  content: 'C';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-4{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F18342;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-4:before{
+  content: 'D';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-5{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F18342;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-5:before{
+  content: 'D';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-5{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F18342;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-5:before{
+  content: 'D';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-6{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #F18342;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.text-6:before{
+  content: 'D';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,17 @@
+<!--pages/grade_search/search.wxml-->
+<view class="container">
+	<view class='search_ZS'>
+			<input class="input_ZS"  placeholder="请输入您要查询的考试名称" style='box-shadow: 0 0 1px #000000'/>
+			<view class="eaxm_list1">
+				<text class="exam_hot">热门考试</text>
+			
+			</view>	
+			<view class="eaxm_list2">
+        <text class="exam_list_hot2"  space="ensp">英语四、六级       计算机等级考试 \n</text>
+        <text class="exam_list_hot2"  space="ensp" >ACCA考试         教师资格证</text>
+			</view>			
+			<button class="btn_ZS" bindtap="skipWeb">搜索</button>
+		
+		
+	</view>
+</view>

@@ -1,0 +1,27 @@
+<!--pages/page4/page4.wxml-->
+<view class="container">
+	<view class='box'>
+		<view class='video' hidden="{{currentTabsIndex!=0}}">
+			<block wx:for="{{videoList}}" wx:key="index">
+				<view class='video-item'>
+					<view class='wrapper'>
+						<video class='video-video' wx:if='{{index==videoIndex}}' id='video{{index}}' autoplay='{{true}}}'
+							show-center-play-btn="{{false}}" src='{{item.resource_add}}'></video>
+						<image class='video-video2' wx:if='{{index!=videoIndex}}' mode='aspectFill' src='{{item.coverimg}}'></image>
+						<image class='videoPlay' wx:if='{{index!=videoIndex}}' data-index='{{index}}' bindtap='videoPlay'
+							src='../../image/play2.png'></image>
+					</view>
+					<view class='video-name'>{{item.title}}</view>
+					<view class='video-desc' style="{{item.upStatus?'':'display:-webkit-box'}}">{{item.description}}</view>
+					<view class='video-bottom'>
+						<view class='video-btn' data-index="{{index}}" bindtap='upDown'>
+							<image hidden='{{item.upStatus}}' src='../../image/slide.png'></image>
+							<image hidden='{{!item.upStatus}}' src='../../image/up.png'></image>
+							<text>{{!item.upStatus?'展开':'收起'}}</text>
+						</view>
+					</view>
+				</view>
+			</block>
+		</view>
+	</view>
+</view>

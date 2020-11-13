@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper class="swiper-container" indicator-dots="true" indicator-color="#ccc" indicator-active-color="#fff"
+        autoplay="true" interval="5000" circular="true" duration="1000" bindchange="swiperChange">
+        <block wx:for="{{imageList}}" wx:key="key" wx:for-item="item">
+          <swiper-item>
+            <image class="weui-media-box__hd" mode='scaleToFill' src="{{item}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="button-sp-area">
+      <button class="mini-btn-1"  bindtap="ZS_my" size="mini">我的证书</button>
+      <button class="mini-btn-2" bindtap="ZS_search" size="mini">证书查询</button>
+    </view>
+    <view class="button-sp-area">
+      <button class="mini-btn-3"  bindtap="grade_search" size="mini">成绩查询</button>
+      <button class="mini-btn-4"  size="mini">证书搜素</button>
+    </view>
+  </view>

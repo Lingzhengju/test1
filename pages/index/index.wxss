@@ -1,0 +1,88 @@
+@import "./ui.wxss";
+
+.weui-panel {
+  background: transparent;
+}
+
+.weui-media-box__desc {
+  color: rgb(0, 34, 0);
+  font-weight: bold;
+}
+
+.weui-media-box__hd{
+  margin-top: 10px;
+  text-align: center;
+}
+.page-body{
+  padding-top: 30rpx;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.page-section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-section:last-child{
+  margin-bottom: 0;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.page-section-spacing{
+  box-sizing: border-box;
+  padding: 0 80rpx;
+}
+.page-section-title{
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.page-section-gap .page-section-title{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.swiper-container{
+  min-height: 150px;
+}
+
+.button-sp-area{
+  margin-top: 60rpx;
+  width: 90%;
+  display:flex;
+}
+
+.mini-btn-1{
+  margin-right: 25rpx;
+  background-color: #E1BFFF;
+  height: 200rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.mini-btn-2{
+  margin-right: 30rpx;
+  background-color: #80D1FE;
+  height: 200rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.mini-btn-3{
+  margin-right: 30rpx;
+  background-color: #FFDB76;
+  height: 200rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.mini-btn-4{
+  margin-right: 30rpx;
+  background-color: #F18342;
+  height: 200rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx; 
+}

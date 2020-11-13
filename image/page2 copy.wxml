@@ -1,0 +1,22 @@
+<!--pages/page2/page2.wxml-->
+<view class="page-body">
+    <view class="page-section" style="margin-top: 10rpx;margin-bottom: 0;">
+    </view>
+      <view class="page-section-spacing">
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item text-1"></view>
+          <view class="flex-item text-2"></view>
+          <view class="flex-item text-3"></view>
+        </view>
+      </view>
+      <view class="page-section-spacing">
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item text-4"></view>
+          
+          <view class="flex-item text-5"></view>
+          <view class="flex-item text-6"></view>
+        </view>
+      </view>
+    
+
+  </view>

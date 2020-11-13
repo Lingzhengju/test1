@@ -1,0 +1,34 @@
+/* pages/grade_search/search.wxss */
+
+/* 新添加的 */
+.container{
+  padding-top: 20px;
+}
+.input_ZS{
+  width: 300px; 
+  height: 30px;
+}
+.search_ZS{
+ padding-top: 20;
+}
+.eaxm_list1{
+  margin-top: 10px;
+}
+.exam_hot{
+  size: 30px;
+  font-weight: bold;
+}
+.btn_ZS{
+  top: 50px;
+  font-weight: bold;
+}
+.exam_list_hot1.exam_list_hot2{
+  margin-right:2em;
+  text-indent: 5em;
+}
+.exam_list_hot2{
+  /* margin-right:4em; */
+  text-indent: 5em;
+  color: #f75a62;
+}
+

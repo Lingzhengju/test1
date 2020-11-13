@@ -1,0 +1,141 @@
+/* pages/page6/page6.wxss */
+
+.item {
+  border: 1rpx solid #eee;
+  padding: 10rpx;
+  font-size: 11pt;
+}
+
+.active {
+  background: #00b43c;
+  color: #fff;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: #ffffff;
+
+}
+
+.background .info{
+  margin-top: 20rpx;
+  left: 0;
+  right: 0;
+  font-size: 12pt;
+  color: #001605;
+}
+
+.background .list {
+  margin-top: 50rpx;
+  width: 100%;
+}
+
+.background .poster {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-top: 400rpx;
+}
+
+.rotate {
+  animation: rotate 10s linear infinite;
+}
+
+.rotate-paused {
+  animation: rotate 10s linear infinite;
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.progress {
+
+  left: 50rpx;
+  right: 50rpx;
+  display: flex;
+  align-items: center;
+  font-size: 10pt;
+  color: rgb(87, 49, 49);
+  text-align: center;
+}
+
+.progress .bar {
+  flex: 1;
+}
+
+.progress text {
+  flex-basis: 90rpx;
+}
+
+.buttons {
+  left: 50rpx;
+  right: 50rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons .button {
+  width: 70rpx;
+  height: 70rpx;
+}
+.view_tupian_wenzi {
+  padding-top: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px
+ }
+ .image_1 {
+  width: 100px;
+  height: 100px;
+ }
+ .view_wenzi2 {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .text_myZS1{
+  font-size: 25px;
+  text-align: justify;
+ }
+ .btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: burlywood;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+} 

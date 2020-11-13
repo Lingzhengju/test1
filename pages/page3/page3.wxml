@@ -1,0 +1,52 @@
+<!-- pages/page3/page3.wxml -->
+<!-- <view class="container">
+  <view class='background'>
+    <view class='info'>
+      <text class="text_myZS1">我的证书</text>
+      <!--文字我的证书-->
+<!-- </view> -->
+
+<!-- 获取证书信息 -->
+<!-- <view  wx:for="{{ne}}">
+      <view class="view_tupian_wenzi">
+      <image class="image_1" src="{{item.fileIDs}}" />
+      <view class="view_wenzi2">
+        <text class="text_myZS2">证书名称：{{item.name}}</text>
+        <text class="text_myZS2">获取时间：{{item.data}}</text>
+        <text class="text_myZS2">证书类型：{{item.type}}</text>
+        <text class="text_myZS2">通过分数：{{item.score}}</text>
+      </view>
+    </view>
+    </view>
+
+
+    <view><button bindtap="getData" type='primary'>刷新</button></view> 
+
+
+    <view class="btn">
+      <button class='btn1' bindtap="jumpPageADD"> -->
+<!-- open-type='openSetting'打开设置选项 -->
+<!-- <image class='btnImg' src='../../image/添加.png'></image>
+        <view>添加</view>
+      </button>
+    </view>
+  </view>
+</view> -->
+<!-- 新 -->
+<view class="container">
+  <view class='search_ZS'>
+    <input class="input_ZS" name="name_ZS" bindinput="ZS_name" placeholder="请输入您的专业或职业志向"
+      style='box-shadow: 0 0 1px #000000' />
+    <view> 查询结果 </view>
+    <form bindsubmit='res'>
+      <view wx:for="{{articleList}}" wx:key="index" wx:for-item="item" class="weui-panel__bd">
+        <text>名称：{{item.name}}</text>
+        <view>证书1：{{item.zs3}}</view>
+        <view>证书2：{{item.zs2}}</view>
+        <view>证书3：{{item.zs3}}</view>
+      </view>
+      <button class="btn_ZS" bindtap="search_ZS">搜索</button>
+    </form>
+
+  </view>
+</view>
